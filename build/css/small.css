@@ -3,7 +3,7 @@
 }
 
 body {
-    font-family: "Oswald", sans-serif
+    font-family: "Roboto", sans-serif
 }
 
 .img_icon {
@@ -11,11 +11,11 @@ body {
 }
 
 h2 {
-    font-size: 45px
+    font-size: 35px
 }
 
 .main_title {
-    font-size: 70px
+    font-size: 50px
 }
 
 .text_hero {
@@ -26,27 +26,27 @@ h2 {
 }
 
 nav input {
-    height: 35px;
+    height: 25px;
     border-radius: 7%;
     width: 100%
 }
 
 nav {
-    background-color: #6a040f;
+    background-color: #090441;
     padding: 10px
 }
 
 .btn_search {
     height: 50px;
     width: 100px;
-    border-radius: 10%;
-    color: #000
+    border-radius: 20%;
+    color: #090441
 }
 
 .btn_search:hover {
-    background-color: green;
+    background-color: aqua;
     color: #fff;
-    transition: all .5s
+    transition: all .4s
 }
 
 .hero {
@@ -69,7 +69,7 @@ nav {
 #lastvisit {
     align-items: center;
     text-align: center;
-    margin: .3rem;
+    margin: .2rem;
     width: 100%;
     display: block
 }
@@ -82,13 +82,13 @@ nav {
     margin-left: auto;
     margin-right: auto;
     object-fit: cover;
-    background-color: rgba(0, 0, 0, 0.624);
+    background-color: #090441;
     padding: 0;
-    transition: padding .25s
+    transition: padding .35s
 }
 
 #movie_section img:hover {
-    padding: .5rem
+    padding: .2rem
 }
 
 #movie_section {
@@ -163,7 +163,7 @@ h2 {
 }
 
 footer {
-    background-color: #6a040f;
+    background-color: #090441;
     height: 100px;
     text-align: center;
     padding-top: 15px;
@@ -175,7 +175,7 @@ footer a {
 }
 
 .movie-short-info {
-    border: 2px solid #6a040f;
+    border: 2px solid #090441;
     padding: 10px;
     text-align: center
 }
@@ -265,7 +265,7 @@ footer a {
 
 .like__btn {
     padding: 10px 15px;
-    background-color: #6a040f;
+    background-color: #090441;
     color: #f0f8ff;
     border-radius: 5px;
     border: none;
@@ -286,7 +286,7 @@ footer a {
 }
 
 .movie-details-ratings-container div {
-    background-color: #6a040f;
+    background-color: #090441;
     color: #fff;
     padding: 25px 0;
     text-align: center
