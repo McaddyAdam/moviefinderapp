@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Details</title>
+    <meta name="description" content="Movie Details">
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link href="../css/small.css" rel="stylesheet">
+    <!-- enhance-tablet -->
+    <link href="../css/medium.css" rel="stylesheet">
+    <!-- enhance-desktop -->
+    <link href="../css/large.css" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500&amp;display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/3d8d17f1ed.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <script src="../js/movie-details.js" defer type="module"></script>
+    <header class="divider" id="main-header"></header>
+
+    <main class="divider">
+        <div id="movie-details">
+            <section class="movie-details-top-container">
+                <div class="movie-details-poster-container">
+                    <img class="details-page-image" src="../img/geoffrey-moffett-TFRezw7pQwI-unsplash.jpg" alt>
+                </div>
+                <div class="movie-details-title-container">
+                    <h1 class="details-page-title"></h1>
+                    <div class="movie-details-brief">
+                        <p class="details-page-year"></p>
+                        <p class="details-page-rating"></p>
+                        <p class="details-page-genre"></p>
+                    </div>
+                    <p class="movie-details-description"></p>
+                    <button class="like__btn">
+              <span id="icon"><i class="fa-regular fa-thumbs-up"></i></span>
+              <span id="count"> 0 </span>Like
+            </button>
+                </div>
+            </section>
+            <section class="movie-details-ratings">
+                <h2>Internet Ratings</h2>
+
+                <div class="movie-details-ratings-container">
+                    <div>
+                        <h3>IMDB</h3>
+                        <p class="details-page-imdb"></p>
+                    </div>
+                    <div>
+                        <h3>Rotten Tomatoes</h3>
+                        <p class="details-page-tomatoes"></p>
+                    </div>
+                    <div>
+                        <h3>Metacritic</h3>
+                        <p class="details-page-metacritic"></p>
+                    </div>
+                </div>
+            </section>
+            <section class="movie-details-info-container">
+                <div class="left-info">
+                    <div class="movie-details-info">
+                        <p>Released:</p>
+                        <p class="details-page-released"></p>
+                    </div>
+                    <div class="movie-details-info">
+                        <p>Runtime:</p>
+                        <p class="details-page-runtime"></p>
+                    </div>
+                    <div class="movie-details-info">
+                        <p>Type:</p>
+                        <p class="details-page-type"></p>
+                    </div>
+                </div>
+                <div class="right-info">
+                    <div class="movie-details-info">
+                        <p>Actors:</p>
+                        <p class="details-page-actors"></p>
+                    </div>
+                    <div class="movie-details-info">
+                        <p>Director:</p>
+                        <p class="details-page-director"></p>
+                    </div>
+                    <div class="movie-details-info">
+                        <p>Writers:</p>
+                        <p class="details-page-writers"></p>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer id="main-footer"></footer>
+
+
+</body>
+
+</html>

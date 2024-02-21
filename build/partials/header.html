@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<nav>
+    <div class="search_bar">
+        <div class="nav-child">
+            <a id="logo-link" href="./index.html"><img id="logo-img" src="./icons/8202294731595452646.svg" class="img_icon" width="80px" alt="" /></a>
+        </div>
+        <div class="nav-child">
+            <input id="user-input" type="text" height="72px" placeholder="Enter your movie here..." onkeypress="
+          if (event.key == 'Enter') {
+            document.querySelector('.btn_search').click();
+          }" />
+        </div>
+        <div class="nav-child">
+            <button class="btn_search" onclick="toMovieListing();">Search</button>
+        </div>
+    </div>
+</nav>
